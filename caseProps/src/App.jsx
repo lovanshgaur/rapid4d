@@ -168,12 +168,18 @@ const App = () => {
       color: "#D97706"
     }
   ];
-  console.log(characters);
-  
+
   return (
     <>
-      <div className="card-wrapper">
-        <Card />
+      <div className="cards-wrapper">
+        {characters.map(function (e, idx) {
+          console.log(e);
+          return (
+            <div className="card-wrapper" key={idx}>
+              <Card character={e} />
+            </div>
+          );
+        })}
       </div>
     </>
   );

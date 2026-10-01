@@ -1,8 +1,9 @@
+.card-wrapper {
+  flex: 1 1 300px;
+}
 .card {
   color: var(--ink);
   position: relative;
-  width: min(390px, 100%);
-  min-height: 590px;
   padding: 1.5rem;
   background:
     linear-gradient(

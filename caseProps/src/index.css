@@ -29,6 +29,9 @@ body {
   font-family: "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.card-wrapper{
+.cards-wrapper{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
