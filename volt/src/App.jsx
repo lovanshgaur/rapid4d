@@ -1,11 +1,12 @@
-import React from 'react'
+import Form from "./components/Form";
 
 const App = () => {
+ 
   return (
     <>
-     <h1>init Volt</h1> 
+    <Form/>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
